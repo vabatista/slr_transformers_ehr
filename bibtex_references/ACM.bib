@@ -1,0 +1,206 @@
+@inproceedings{10.1145/3404555.3404635,
+abstract = {Relation extraction is a necessary step in obtaining information from electronic medical
+records. The deep learning methods for relation extraction are primarily based on
+word2vec and convolutional or recurrent neural network. However, word vectors generated
+by word2vec are static and cannot well reflect the different meanings of polysemy
+in different contexts and the feature extraction ability of RNN (Recurrent Neural
+Network) is not good enough. At the same time, the BERT (Bidirectional Encoder Representations
+from Transformers) pre-trained language model has achieved excellent results in many
+natural language processing tasks. In this paper, we propose a medical relation extraction
+model based on BERT. We combine the information of the whole sentence obtained from
+the pre-train language model with the corresponding information of two medical entities
+to complete relation extraction task. The experimental data were obtained from the
+Chinese electronic medical records provided by a hospital in Beijing. Experimental
+results on electronic medical records show that our model's accuracy, precision, recall,
+and F1-score reach 67.37%, 69.54%, 67.38%, 68.44%, which are higher than other three
+methods. Because named entity recognition task is the premise of relation extraction,
+we will combine the model with named entity recognition in the future work.},
+address = {New York, NY, USA},
+author = {Gao, Shengxin and Du, Jinlian and Zhang, Xiao},
+booktitle = {Proceedings of the 2020 6th International Conference on Computing and Artificial Intelligence},
+doi = {10.1145/3404555.3404635},
+isbn = {9781450377089},
+keywords = {BERT,Chinese electronic medical records,Relationship extraction,deep learning},
+pages = {487--490},
+publisher = {Association for Computing Machinery},
+series = {ICCAI '20},
+title = {{Research on Relation Extraction Method of Chinese Electronic Medical Records Based on BERT}},
+url = {https://doi.org/10.1145/3404555.3404635},
+year = {2020}
+}
+@inproceedings{10.1145/3410530.3414436,
+abstract = {The prevalence of voice assistants has strengthened the interest in a question answering
+for the medical domain, allowing both patients and healthcare providers to enter a
+question naturally and pinpoint useful information quickly. However, a large number
+of medical terms make the creation of such a system a demanding task. To address this
+challenge, we explore transfer learning techniques for constructing a personalized
+EHR-QA system. The goal is to answer questions regarding a discharge summary in an
+electronic health record (EHR). We present the experiments with a pre-trained BERT
+(Bidirectional Encoder Representations from Transformers) model fine-tuned on different
+tasks and show the results obtained to provide insights into learning effects and
+training effectiveness.},
+address = {New York, NY, USA},
+author = {Mairittha, Tittaya and Mairittha, Nattaya and Inoue, Sozo},
+booktitle = {Adjunct Proceedings of the 2020 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2020 ACM International Symposium on Wearable Computers},
+doi = {10.1145/3410530.3414436},
+isbn = {9781450380768},
+keywords = {electronic health records,question answering,transfer learning},
+pages = {688--691},
+publisher = {Association for Computing Machinery},
+series = {UbiComp-ISWC '20},
+title = {{Improving Fine-Tuned Question Answering Models for Electronic Health Records}},
+url = {https://doi.org/10.1145/3410530.3414436},
+year = {2020}
+}
+@inproceedings{10.1145/3374587.3374612,
+abstract = {Named entity extraction task refers to identifying and extracting proper named entities
+from natural language texts. It is the key task in knowledge graph construction. Disease,
+symptom and drug entities are widely distributed in Chinese electronic medical records
+(EMRs). Extracting high-quality medical entities from EMR plays an important role
+in building medical knowledge graph, medical question & answer and assistance decision
+making. For the widely distributed entities, in this paper, we propose an end-to-end
+named entity extraction framework, which uses popular deep learning based approach,
+known as conditional random field (CRF), bidirectional-long short-term memory (Bi-LSTM+CRF)
+and BERT+Bi-LSTM+CRF for training and testing the named entities. These models are
+tested on real medical records, and the experimental results show that the method
+can effectively identify the entities, and has certain practical value.},
+address = {New York, NY, USA},
+author = {Fan, Hongjie and Wang, Dongsheng and Ye, Songtao},
+booktitle = {Proceedings of the 2019 3rd International Conference on Computer Science and Artificial Intelligence},
+doi = {10.1145/3374587.3374612},
+isbn = {9781450376273},
+keywords = {BERT,Bi-LSTM,Conditional Random Field,Electronic Medical Record,Named Entity Extraction},
+pages = {278--282},
+publisher = {Association for Computing Machinery},
+series = {CSAI2019},
+title = {{Named Entity Extraction for Chinese Electronic Medical Records}},
+url = {https://doi.org/10.1145/3374587.3374612},
+year = {2019}
+}
+@inproceedings{10.1145/3436369.3436390,
+abstract = {Named entity recognition, aiming at identifying and classifying named entity mentioned
+in the structured or unstructured text, is a fundamental subtask for information extraction
+in natural language processing (NLP). With the development of electronic medical records,
+obtaining the key and effective information in electronic document through named entity
+identification has become an increasingly popular research direction. In this article,
+we adapt a recently introduced pre-trained language model BERT for named entity recognition
+in electronic medical records to solve the problem of missing context information
+and we add an extra mechanism to capture the relationship between words. Based on
+this, (1) the entities can be represented by sentence-level vector, with the forward
+as well as backward information of the sentence, which can be directly used by downstream
+tasks; (2) the model acquires the representation of word in context and learn the
+potential relation between words to decrease the influence of inconsistent entity
+markup problem of a text. We conduct experiments an electronic medical record dataset
+proposed by China Conference on Knowledge Graph and Semantic Computing in 2019. The
+experimental result shows that our proposed method has an improvement compared with
+the traditional methods.},
+address = {New York, NY, USA},
+author = {Wang, Qingchuan and E, Haihong},
+booktitle = {Proceedings of the 2020 9th International Conference on Computing and Pattern Recognition},
+doi = {10.1145/3436369.3436390},
+isbn = {9781450387835},
+keywords = {BERT,Named entity recognition,attention mechanism,electronic medical records},
+pages = {13--17},
+publisher = {Association for Computing Machinery},
+series = {ICCPR 2020},
+title = {{A BERT-Based Named Entity Recognition in Chinese Electronic Medical Record}},
+url = {https://doi.org/10.1145/3436369.3436390},
+year = {2020}
+}
+@inproceedings{10.1145/3366423.3380181,
+abstract = {Clinical trials are essential for drug development but often suffer from expensive,
+inaccurate and insufficient patient recruitment. The core problem of patient-trial
+matching is to find qualified patients for a trial, where patient information is stored
+in electronic health records (EHR) while trial eligibility criteria (EC) are described
+in text documents available on the web. How to represent longitudinal patient EHR?
+How to extract complex logical rules from EC? Most existing works rely on manual rule-based
+extraction, which is time consuming and inflexible for complex inference. To address
+these challenges, we proposed a cross-modal inference learning model to jointly encode
+enrollment criteria (text) and patients records (tabular data) into a shared latent
+space for matching inference. pplies a pre-trained Bidirectional Encoder Representations
+from Transformers(BERT) model to encode clinical trial information into sentence embedding.
+And uses a hierarchical embedding model to represent patient longitudinal EHR. In
+addition, s augmented by a numerical information embedding and entailment module to
+reason over numerical information in both EC and EHR. These encoders are trained jointly
+to optimize patient-trial matching score. We evaluated n the trial-patient matching
+task with demonstrated on real world datasets. utperformed the best baseline by up
+to 12.4% in average F1.},
+address = {New York, NY, USA},
+author = {Zhang, Xingyao and Xiao, Cao and Glass, Lucas M and Sun, Jimeng},
+booktitle = {Proceedings of The Web Conference 2020},
+doi = {10.1145/3366423.3380181},
+isbn = {9781450370233},
+keywords = {Attention Mechanism,Entailment Prediction,Machine Learning,Trial Recruitment},
+pages = {1029--1037},
+publisher = {Association for Computing Machinery},
+series = {WWW '20},
+title = {{DeepEnroll: Patient-Trial Matching with Deep Embedding and Entailment Prediction}},
+url = {https://doi.org/10.1145/3366423.3380181},
+year = {2020}
+}
+@inproceedings{10.1145/3459930.3469560,
+abstract = {The rapid adoption of electronic health records (EHRs) systems has made clinical data
+available in electronic format for research and for many downstream applications.
+Electronic screening of potentially eligible patients using these clinical databases
+for clinical trials is a critical need to improve trial recruitment efficiency. Nevertheless,
+manually translating free-text eligibility criteria into database queries is labor
+intensive and inefficient. To facilitate automated screening, free-text eligibility
+criteria must be structured and coded into a computable format using controlled vocabularies.
+Named entity recognition (NER) is thus an important first step. In this study, we
+evaluate 4 state-of-the-art transformer-based NER models on two publicly available
+annotated corpora of eligibility criteria released by Columbia University (i.e., the
+Chia data) and Facebook Research (i.e.the FRD data). Four transformer-based models
+(i.e., BERT, ALBERT, RoBERTa, and ELECTRA) pretrained with general English domain
+corpora vs. those pretrained with PubMed citations, clinical notes from the MIMIC-III
+dataset and eligibility criteria extracted from all the clinical trials on ClinicalTrials.gov
+were compared. Experimental results show that RoBERTa pretrained with MIMIC-III clinical
+notes and eligibility criteria yielded the highest strict and relaxed F-scores in
+both the Chia data (i.e., 0.658/0.798) and the FRD data (i.e., 0.785/0.916). With
+promising NER results, further investigations on building a reliable natural language
+processing (NLP)-assisted pipeline for automated electronic screening are needed.},
+address = {New York, NY, USA},
+author = {Tian, Shubo and Erdengasileng, Arslan and Yang, Xi and Guo, Yi and Wu, Yonghui and Zhang, Jinfeng and Bian, Jiang and He, Zhe},
+booktitle = {Proceedings of the 12th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics},
+doi = {10.1145/3459930.3469560},
+isbn = {9781450384506},
+keywords = {clinical trial,eligibility criteria parsing,named entity recognition,transformer-based model},
+publisher = {Association for Computing Machinery},
+series = {BCB '21},
+title = {{Transformer-Based Named Entity Recognition for Parsing Clinical Trial Eligibility Criteria}},
+url = {https://doi.org/10.1145/3459930.3469560},
+year = {2021}
+}
+@inproceedings{10.1145/3459930.3469547,
+abstract = {With the increasing availability of Electronic Health Records (EHRs) and advances
+in deep learning techniques, developing deep predictive models that use EHR data to
+solve healthcare problems has gained momentum in recent years. The majority of clinical
+predictive models benefit from structured data in EHR (e.g., lab measurements and
+medications). Still, learning clinical outcomes from all possible information sources
+is one of the main challenges when building predictive models. This work focuses on
+two sources of information that have been underused by researchers; unstructured data
+(e.g., clinical notes) and a patient network. We propose a novel hybrid deep learning
+model, DeepNote-GNN, that integrates clinical notes information and patient network
+topological structure to improve 30-day hospital readmission prediction. DeepNote-GNN
+is a robust deep learning framework consisting of two modules: DeepNote and patient
+network. DeepNote extracts deep representations of clinical notes using a feature
+aggregation unit on top of a state-of-the-art Natural Language Processing (NLP) technique
+- BERT. By exploiting these deep representations, a patient network is built, and
+Graph Neural Network (GNN) is used to train the network for hospital readmission predictions.
+Performance evaluation on the MIMIC-III dataset demonstrates that DeepNote-GNN achieves
+superior results compared to the state-of-the-art baselines on the 30-day hospital
+readmission task. We extensively analyze the DeepNote-GNN model to illustrate the
+effectiveness and contribution of each component of it. The model analysis shows that
+patient network has a significant contribution to the overall performance, and DeepNote-GNN
+is robust and can consistently perform well on the 30-day readmission prediction task.},
+address = {New York, NY, USA},
+author = {Golmaei, Sara Nouri and Luo, Xiao},
+booktitle = {Proceedings of the 12th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics},
+doi = {10.1145/3459930.3469547},
+isbn = {9781450384506},
+keywords = {clinical notes,deep learning,electronic health records,feature aggregation,graph neural networks,natural language processing},
+publisher = {Association for Computing Machinery},
+series = {BCB '21},
+title = {{DeepNote-GNN: Predicting Hospital Readmission Using Clinical Notes and Patient Network}},
+url = {https://doi.org/10.1145/3459930.3469547},
+year = {2021}
+}
